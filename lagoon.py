@@ -19,7 +19,6 @@ def tick():
         value = input()
         for i in inp:
             memory[i] = ord(value)
-    print(memory)
 
 def toggle(index, pool):
     if index in pool:
